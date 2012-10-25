@@ -1,8 +1,3 @@
-Plug.dj-Minecraft-plugin
-========================
-
-Plug.dj Minecraft plugin
-
 package main.djredpony.plug;
 
 import java.io.BufferedReader;
@@ -197,7 +192,7 @@ public class PlugDJ extends JavaPlugin
     BufferedReader buff = null;
     try
     {
-      erp = new URL("http://www.fragradio.co.uk/ingame/request.php" + frT);
+      erp = new URL("http://www.plug.dj" + frT);
       erpConnect = erp.openConnection();
       inStream = new InputStreamReader(erpConnect.getInputStream());
       buff = new BufferedReader(inStream);
