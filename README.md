@@ -3,7 +3,7 @@ Plug.dj-Minecraft-plugin
 
 Plug.dj Minecraft plugin
 
-package main.alexhaslam.frag;
+package main.djredpony.plug;
 
 import java.io.BufferedReader;
 import java.io.IOException;
