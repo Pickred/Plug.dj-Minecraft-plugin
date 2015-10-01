@@ -1657,7 +1657,7 @@ a.list-group-item-danger:hover,a.list-group-item-danger:focus,.table-hover>tbody
 .list-group-item
 {
   margin-bottom:-2px;
-  border:2px solid #ddd
+  border: 2px solid #464C5A;
 }
 
 .list-group-item-danger
@@ -4061,7 +4061,7 @@ li .no_notifications
 {
   border-bottom:0 none;
   border-radius:2px 2px 0 0;
-  background:none repeat scroll 0 0 #dde1e7
+  background:none repeat scroll 0 0 #30343E
 }
 
 .nav-tabs>li
@@ -4083,7 +4083,7 @@ li .no_notifications
 .nav-tabs>li>a:hover,.nav-tabs>li>a:hover,.nav-tabs>li>a:focus
 {
   border:0 none;
-  background-color:#f9f9f9
+  background-color:#262931
 }
 
 .nav .open>a,.nav .open>a:hover,.nav .open>a:focus
@@ -5498,7 +5498,7 @@ article h3
 
 .mini-timeline>li .timeline-body
 {
-  background-color:#fff;
+  background-color:#262931;
   margin:0 0 0 30px;
   padding:0;
   position:relative
@@ -6127,4 +6127,21 @@ color: #ccc!important
 {
     background-color: #1C1E23!important;
 	color: #ccc!important
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover
+{
+    background-color: #262931!important;
+	color:#ccc!important
+}
+
+.list-group-item
+{
+    background-color: #262931;
+}
+
+a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover
+{
+    color: #EFEFEF;
+    background-color: #30343E;
 }
